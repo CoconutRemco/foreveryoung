@@ -36,7 +36,7 @@ while change > 0 and coinValue > 0: #This will make sure you have to return coin
       print('return maximal ', nrCoins, ' coins of ', coinValue, ' cents!' ) #this prints the maximum coins you have to retunr
       nrCoinsReturned = int(input('How many coins of ' + str(coinValue) +  ' cents did you return? ')) #this askes how many you returned
       change -= nrCoinsReturned * coinValue #this wil make sure it is right
-      print("Number of coins retunerd: " + str(nrCoinsReturned) + str(coinValue))
+      print("Number of coins retunerd: " + str(nrCoinsReturned)+ " " + str(coinValue))
 
 # comment on code below:If the value is the same as 1 of the coins you will get paid in the coins with less value 
     if coinValue == 500:
@@ -72,4 +72,15 @@ if change > 0: #this wil make sure you have returned the correct amount
 else:
   print('done')
 
-  print("5 euro muntstukken "+ str(cr50))
+print("----------------------------------------")
+print("5 euro muntstukken "+ str(cr500))
+print("3 euro munstukken "+ str(cr300))
+print("2 euro munstukken "+ str(cr200))
+print("50 euro cent munstukken "+ str(cr50))
+print("20 euro cent munstukken "+ str(cr20))
+print("10 euro cent munstukken "+ str(cr10))
+print("5 euro cent munstukken "+ str(cr5))
+print("2 euro cent munstukken "+ str(cr2))
+print("1 euro cent munstukken "+ str(cr1))
+print("----------------------------------------")
+
